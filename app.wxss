@@ -7,10 +7,10 @@
   justify-content: space-between;
   /*padding: 200rpx 0;*/
   box-sizing: border-box;
-  background: #F0F4F3;
+  background: #F0F0F0;
 }
 
-.container.withtab{
+.container .withtab{
   margin: 105rpx 0 0 0;
   /*top: 105rpx;*/
 }

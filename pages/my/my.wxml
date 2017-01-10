@@ -1,0 +1,85 @@
+<!--pages/my/my.wxml-->
+<view class="container">
+
+<!--顶部-->
+  <view id="user" bindtap="tapUser" class="user flex-wrp">
+    <view class="avatar flex-item">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    </view>
+    <view class="user-info flex-item">
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <text class="edit">查看或编辑个人主页</text>
+    </view>
+  </view>
+
+<!--中间-->
+  <view class="my">
+
+    <view id="album" bindtap="tapAlbum" class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../../images/photo_icon@2x.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的相册</text>
+      </view>
+      <view class="myitem-tail flex-item" >
+        <image src="../../images/right_icon@2x.png"></image>
+      </view>
+    </view>
+
+    <view id="qrcode" bindtap="tapQrcode" class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../../images/code_icon@2x.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的二维码</text>
+      </view>
+      <view class="myitem-tail flex-item" >
+        <image src="../../images/right_icon@2x.png"></image>
+      </view>
+    </view>
+
+    <view id="favour" bindtap="tapFavour" class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../../images/collection_icon@2x.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的收藏</text>
+      </view>
+      <view class="myitem-tail flex-item" >
+        <image src="../../images/right_icon@2x.png"></image>
+      </view>
+    </view>
+
+  </view>
+
+<!--底部-->
+  <view class="my">
+
+    <view id="setting" bindtap="tapSetting" class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../../images/shezhi_icon@2x.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>设置</text>
+      </view>
+      <view class="myitem-tail flex-item" >
+        <image src="../../images/right_icon@2x.png"></image>
+      </view>
+    </view>
+
+    <view id="about" bindtap="tapAbout" class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../../images/we_icon@2x.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>关于我们</text>
+      </view>
+      <view class="myitem-tail flex-item" >
+        <image src="../../images/right_icon@2x.png"></image>
+      </view>
+    </view>
+
+  </view>
+  
+</view>

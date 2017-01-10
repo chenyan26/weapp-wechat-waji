@@ -1,17 +1,24 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/notify/notify",
-    "pages/chat/chat",
-    "pages/more/more",
-    "pages/answer/answer",
-    "pages/question/question"
+    "pages/publish/publish",
+
+    "pages/my/my",
+    "pages/my/user/user",
+    "pages/my/album/album",
+    "pages/my/qrcode/qrcode",
+    "pages/my/favour/favour",
+    "pages/my/setting/setting",
+    "pages/my/about/about",
+
+    "pages/discovery/discovery",
+    "pages/question/question",
+    "pages/answer/answer"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#0068C4",
-    "navigationBarTitleText": "知乎",
-    "navigationBarTextStyle":"white",
+    "navigationBarBackgroundColor": "#F0F0F0",
+    "navigationBarTextStyle":"#333333",
     "enablePullDownRefresh":true
   },
   "tabBar": {
@@ -25,12 +32,17 @@
       "iconPath": "images/Find_icon02@2x.png",
       "selectedIconPath": "images/Find_icon01@2x.png"
     }, {
-      "pagePath": "pages/notify/notify",
+      "pagePath": "pages/publish/publish",
       "text": "发布",
       "iconPath": "images/+@2x2.png",
       "selectedIconPath": "images/+@2x (2).png"
     }, {
-      "pagePath": "pages/more/more",
+      "pagePath": "pages/discovery/discovery",
+      "text": "旧发现",
+      "iconPath": "images/+@2x2.png",
+      "selectedIconPath": "images/+@2x (2).png"
+    }, {
+      "pagePath": "pages/my/my",
       "text": "我的",
       "iconPath": "images/Personal_icon02@2x.png",
       "selectedIconPath": "images/Personal_icon01@2x.png"
