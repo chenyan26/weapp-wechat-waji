@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/notify/notify",
+    "pages/chat/chat",
+    "pages/more/more",
+    "pages/answer/answer",
+    "pages/question/question"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0068C4",
+    "navigationBarTitleText": "知乎",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#12B7F5",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "发现",
+      "iconPath": "images/Find_icon02@2x.png",
+      "selectedIconPath": "images/Find_icon01@2x.png"
+    }, {
+      "pagePath": "pages/notify/notify",
+      "text": "发布",
+      "iconPath": "images/+@2x2.png",
+      "selectedIconPath": "images/+@2x (2).png"
+    }, {
+      "pagePath": "pages/more/more",
+      "text": "我的",
+      "iconPath": "images/Personal_icon02@2x.png",
+      "selectedIconPath": "images/Personal_icon01@2x.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
