@@ -2,7 +2,7 @@
 <view class="container">
 
 <!--顶部-->
-  <view id="user" bindtap="tapUser" class="user flex-wrp">
+  <view bindtap="tapUserInfo" class="user flex-wrp">
     <view class="avatar flex-item">
       <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     </view>
@@ -15,7 +15,7 @@
 <!--中间-->
   <view class="my">
 
-    <view id="album" bindtap="tapAlbum" class="my-item flex-wrp">
+    <view bindtap="tapAlbum" class="my-item flex-wrp">
       <view class="myitem-icon flex-item" >
         <image src="../../images/photo_icon@2x.png"></image>
       </view>
@@ -27,7 +27,7 @@
       </view>
     </view>
 
-    <view id="qrcode" bindtap="tapQrcode" class="my-item flex-wrp">
+    <view bindtap="tapQrcode" class="my-item flex-wrp">
       <view class="myitem-icon flex-item" >
         <image src="../../images/code_icon@2x.png"></image>
       </view>
@@ -39,7 +39,7 @@
       </view>
     </view>
 
-    <view id="favour" bindtap="tapFavour" class="my-item flex-wrp">
+    <view bindtap="tapFavour" class="my-item flex-wrp">
       <view class="myitem-icon flex-item" >
         <image src="../../images/collection_icon@2x.png"></image>
       </view>
@@ -56,7 +56,7 @@
 <!--底部-->
   <view class="my">
 
-    <view id="setting" bindtap="tapSetting" class="my-item flex-wrp">
+    <view bindtap="tapSetting" class="my-item flex-wrp">
       <view class="myitem-icon flex-item" >
         <image src="../../images/shezhi_icon@2x.png"></image>
       </view>
@@ -68,7 +68,7 @@
       </view>
     </view>
 
-    <view id="about" bindtap="tapAbout" class="my-item flex-wrp">
+    <view bindtap="tapAbout" class="my-item flex-wrp">
       <view class="myitem-icon flex-item" >
         <image src="../../images/we_icon@2x.png"></image>
       </view>

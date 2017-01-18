@@ -1,1 +1,33 @@
 /* pages/publish/publish.wxss */
+
+.advert {
+  width: 750rpx;
+  background: #fff;
+  height: 400rpx
+}
+
+.publish {
+  width: 750rpx;
+  background: #fff;
+  padding: 0 0 160rpx 0;
+  margin: 0;
+  /*border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  box-shadow: 0 2px 5px #f0f0f0;*/
+  justify-content: space-around;
+}
+
+.publish .publish-item {
+  display: inline-block;
+}
+
+.publish .publish-item image {
+  width: 130rpx;
+  height: 130rpx;
+}
+
+.publish .publish-item-text {
+  color: #333;
+  font-size: 32rpx;
+  margin-top: 20rpx;
+}

@@ -1,2 +1,72 @@
 <!--pages/publish/publish.wxml-->
-<text>pages/publish/publish.wxml</text>
+
+<view class="container">
+    <!--广告位-->
+    <view class="advert">
+    </view>
+
+    <!--第一行-->
+    <view class="publish flex-wrp">
+
+        <view bindtap="tapBuy" class="publish-item flex-item" >
+            <view class="publish-item-img">
+                <image src="../../../images/buy_car_icon@2x.png"></image>
+            </view>
+            <view class="publish-item-text">
+                <text>买车信息</text>
+            </view>
+        </view>
+
+        <view bindtap="tapRent" class="publish-item flex-item">
+            <view class="publish-item-img">
+                <image src="../../../images/Wanted_icon@2x.png"></image>
+            </view>
+            <view class="publish-item-text">
+                <text>求租信息</text>
+            </view>
+        </view>
+
+        <view bindtap="tapRecruit" class="publish-item flex-item">
+            <view class="publish-item-img">
+                <image src="../../../images/recruit_icon@2x.png"></image>
+            </view>
+            <view class="publish-item-text">
+                <text>招聘信息</text>
+            </view>
+        </view>
+        
+    </view>
+
+    <!--第二行-->
+    <view class="publish flex-wrp">
+
+        <view bindtap="tapSell" class="publish-item flex-item" >
+            <view class="publish-item-img">
+                <image src="../../../images/Sell_car_icon@2x.png"></image>
+            </view>
+            <view class="publish-item-text">
+                <text>卖车信息</text>
+            </view>
+        </view>
+
+        <view bindtap="tapLease" class="publish-item flex-item">
+            <view class="publish-item-img">
+                <image src="../../../images/lease_icon@2x.png"></image>
+            </view>
+            <view class="publish-item-text">
+                <text>出租信息</text>
+            </view>
+        </view>
+
+        <view bindtap="tapApply" class="publish-item flex-item">
+            <view class="publish-item-img">
+                <image src="../../../images/Job_icon@2x.png"></image>
+            </view>
+            <view class="publish-item-text">
+                <text>求职信息</text>
+            </view>
+        </view>
+        
+    </view>
+
+</view>

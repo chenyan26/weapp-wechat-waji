@@ -4,9 +4,9 @@
   background: #ffffff;
   padding: 30rpx 25rpx 30rpx 0;
   margin: 15rpx 0 0 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #dcdcdc;
-  box-shadow: 0 2px 5px #eeeeee;
+  border-top: 1px solid #F0F0F0;
+  border-bottom: 1px solid #F0F0F0;
+  box-shadow: 0 2px 5px #F0F0F0;
 }
 .user .userinfo-avatar{
   flex: 1;
@@ -32,48 +32,45 @@
   color: #bababa;
   line-height: 34rpx;
 }
-
+/* 主table*/
 .my{
   margin: 15rpx 0 0 0;
-  border-top: solid 1px #ebebeb;
-  border-bottom: solid 2px #ebebeb;
+  border-top: solid 1px #F0F0F0;
+  border-bottom: solid 2px #F0F0F0;
 }
 .my .my-item{
   width: 750rpx;
+  height: 110rpx;
   background: #ffffff;
-  padding: 0
+  border-bottom: solid 1px #F0F0F0;
+  align-items: center
 }
+
 .my .my-item .myitem-icon{
   flex: 1;
 }
 .my .my-item .myitem-icon image{
-  width: 45rpx;
-  height: 45rpx;
-  padding: 37.5rpx 0;
+  width: 50rpx;
+  height: 50rpx;
 }
+
 .my .my-item .myitem-name{
   flex: 5;
   text-align: left;
-  font-size: 34rpx;
-  color: #6d6d6d;
-  line-height: 60rpx;
-  padding: 30rpx 0;
-  border-bottom: solid 1px #ebebeb;
+  font-size: 30rpx;
+  color: #666666;
 }
 
 .my .my-item .myitem-tail{
   flex: 1;
-  border-bottom: solid 1px #ebebeb;
 }
-
 .my .my-item .myitem-tail image{
   width: 20rpx;
   height: 20rpx;
-  padding: 55rpx 0;
 }
-.my .my-item:last-child .myitem-name{
+/*.my .my-item:last-child .myitem-name{
   border-bottom: none;
 }
 .my .my-item:last-child .myitem-tail{
   border-bottom: none;
-}
+}*/

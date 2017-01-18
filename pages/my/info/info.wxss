@@ -1,0 +1,83 @@
+/* pages/my/info/info.wxss */
+
+/* 头像 */
+.avatar-container {
+  width: 725rpx;
+  background: #ffffff;
+  padding: 10rpx 25rpx 10rpx 0;
+  margin: 15rpx 0 0 0;
+  border-top: 1px solid #F0F0F0;
+  border-bottom: 1px solid #F0F0F0;
+  box-shadow: 0 2px 5px #F0F0F0;
+
+  flex-direction: column;
+}
+
+.avatar-container .avatar-img image{
+    width: 110rpx;
+    height: 110rpx;
+    border-radius: 80rpx;
+}
+.avatar-container .avatar-text {
+    font-size: 25rpx;
+    color: #818A8F; 
+}
+
+/* 中间 */
+.info {
+  margin: 15rpx 0 0 0;
+  border-top: solid 1px #F0F0F0;
+  border-bottom: solid 2px #F0F0F0;
+}
+.info .info-item {
+  width: 750rpx;
+  height: 90rpx;
+  background: #ffffff;
+  border-bottom: solid 1px #F0F0F0;
+  align-items: center
+}
+.info .info-item .info-item-text {
+  flex: 5;
+  text-align: right;
+  font-size: 30rpx;
+  color: #12B7F5;
+}
+
+.info .info-item .info-item-hr {
+  flex: 1;
+}
+.info .info-item .info-item-hr image{
+  width: 5rpx;
+  height: 70rpx;
+}
+
+.info .info-item .info-item-input {
+  flex: 12;
+  text-align: left;
+  font-size: 30rpx;
+  color: #666666;
+}
+
+/* 底部 */
+.bottom {
+  background-color: #ffffff;
+  width: 750rpx
+}
+
+.bottom .btn-save {
+  margin-top:50rpx;
+  width: 600rpx;
+  background-color: #12B7F5;
+  font-size: 30rpx;
+  color: #ffffff;
+  border-width: 0
+}
+
+.bottom .btn-loginout {
+  margin-top: 50rpx;
+  width: 600rpx;
+  background-color: #F0F0F0;
+  font-size: 30rpx;
+  color: #333333;
+  border-width: 0
+}

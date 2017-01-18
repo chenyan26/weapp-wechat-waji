@@ -13,9 +13,9 @@ Page({
     })
   },
 
-  tapUser: function(event) {
+  tapUserInfo: function(event) {
     wx.navigateTo({
-      url: './user/user'
+      url: './info/info'
     })
   },
   tapAlbum: function(event) {

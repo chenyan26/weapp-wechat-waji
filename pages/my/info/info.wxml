@@ -1,0 +1,103 @@
+<!--pages/my/info/info.wxml-->
+
+<view class="container">
+
+    <!--头像-->
+    <view bindtap="tapAvatar" class="avatar-container flex-wrp">
+        <view class="avatar-img flex-item">
+             <image src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        </view>
+        <view class="avatar-text flex-item">
+             <text>点击更换头像</text>
+        </view>
+    </view>
+
+    <!--第一部分-->
+    <view class="info">
+
+        <view class="info-item flex-wrp">
+            <view class="info-item-text flex-item">
+                <text>账号</text>
+            </view>
+            <view class="info-item-hr flex-item">
+                <image src="../../../images/line.png"></image>
+            </view>
+            <view class="info-item-input flex-item">
+                <input value="{{account.number}}"/>
+            </view>
+        </view>
+
+        <view class="info-item flex-wrp">
+            <view class="info-item-text flex-item">
+                <text>名字/昵称</text>
+            </view>
+            <view class="info-item-hr flex-item">
+                <image src="../../../images/line.png"></image>
+            </view>
+            <view class="info-item-input flex-item">
+                <input value="{{userInfo.nickName}}"/>
+            </view>
+        </view>
+
+        <view class="info-item flex-wrp">
+            <view class="info-item-text flex-item">
+                <text>性别</text>
+            </view>
+            <view class="info-item-hr flex-item">
+                <image src="../../../images/line.png"></image>
+            </view>
+            <view class="info-item-input flex-item">
+                <input value="{{userInfo.gender}}"/>
+            </view>
+        </view>
+        
+    </view>
+
+    <!--第二部分-->
+    <view class="info">
+
+        <view class="info-item flex-wrp">
+            <view class="info-item-text flex-item">
+                <text>电话</text>
+            </view>
+            <view class="info-item-hr flex-item">
+                <image src="../../../images/line.png"></image>
+            </view>
+            <view class="info-item-input flex-item">
+                <input value="{{account.mobile}}"/>
+            </view>
+        </view>
+
+        <view class="info-item flex-wrp">
+            <view class="info-item-text flex-item">
+                <text>地区</text>
+            </view>
+            <view class="info-item-hr flex-item">
+                <image src="../../../images/line.png"></image>
+            </view>
+            <view class="info-item-input flex-item">
+                <input value="{{account.region}}"/>
+            </view>
+        </view>
+
+        <view class="info-item flex-wrp">
+            <view class="info-item-text flex-item">
+                <text>个性签名</text>
+            </view>
+            <view class="info-item-hr flex-item">
+                <image src="../../../images/line.png"></image>
+            </view>
+            <view class="info-item-input flex-item">
+                <input value="{{account.sign}}"/>
+            </view>
+        </view>
+        
+    </view>
+
+    <!--底部-->
+    <view class="bottom">
+        <button class="btn-save" bindtap="tapSave">保存</button>
+        <button class="btn-loginout" bindtap="tapLoginOut">退出登录</button>
+    </view>
+
+</view>

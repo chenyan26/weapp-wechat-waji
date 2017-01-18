@@ -1,10 +1,10 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/publish/publish",
 
+    "pages/publish/publish",
     "pages/my/my",
-    "pages/my/user/user",
+    "pages/my/info/info",
     "pages/my/album/album",
     "pages/my/qrcode/qrcode",
     "pages/my/favour/favour",
@@ -12,6 +12,7 @@
     "pages/my/about/about",
 
     "pages/discovery/discovery",
+    "pages/notify/notify",
     "pages/question/question",
     "pages/answer/answer"
   ],
@@ -32,13 +33,18 @@
       "iconPath": "images/Find_icon02@2x.png",
       "selectedIconPath": "images/Find_icon01@2x.png"
     }, {
+      "pagePath": "pages/discovery/discovery",
+      "text": "旧发现",
+      "iconPath": "images/Find_icon02@2x.png",
+      "selectedIconPath": "images/Find_icon01@2x.png"
+    }, {
       "pagePath": "pages/publish/publish",
       "text": "发布",
       "iconPath": "images/+@2x2.png",
       "selectedIconPath": "images/+@2x (2).png"
     }, {
-      "pagePath": "pages/discovery/discovery",
-      "text": "旧发现",
+      "pagePath": "pages/notify/notify",
+      "text": "提示",
       "iconPath": "images/+@2x2.png",
       "selectedIconPath": "images/+@2x (2).png"
     }, {
