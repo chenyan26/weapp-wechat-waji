@@ -1,50 +1,169 @@
-<!--index.wxml-->
-<scroll-view scroll-y="true" class="container" bindscrolltoupper="upper" upper-threshold="10" lower-threshold="5" bindscrolltolower="lower"  scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
-  <view class="search flex-wrp">
-      <view class="search-left flex-item">
-          <image src="../../images/search.png"></image>
-          <input placeholder="搜索话题, 问题或人" placeholder-class="search-placeholder"/>
+
+<!--pages/index.wxml-->
+<view class="container">
+
+  <!--朋友圈-->
+  <view bindtap="tapFriend" class="discovery-f-item flex-item flex-wrp">
+    <view class="discovery-f-item-img flex-item">
+      <image src="../../../images/friend_icon@2x.png"></image>
+    </view>
+    <view class="discovery-f-item-text flex-item flex-wrp">
+      <view class="discovery-f-item-title flex-item">
+        <text>朋友圈</text>
       </view>
-      <view class="search-right flex-item" bindtap="upper">
-          <image src="../../images/lighting.png"></image>
+      <view class="discovery-f-item-note flex-item">
+        <text>看看熟人里面有没有新项目</text>
       </view>
+    </view>
+    <view class="discovery-f-item-tail flex-item">
+      <image src="../../../images/right_icon@2x.png"></image>
+    </view>
   </view>
 
-    <block wx:for="{{feed}}" wx:for-index="idx" wx:for-item="item" data-idx="{{idx}}">
-        <view class="feed-item">
-            <view class="feed-source">
-                <a class="">
-                    <view class="avatar">
-                        <image src="{{item.feed_source_img}}"></image>
-                    </view>
-                    <text>{{item.feed_source_name}}{{item.feed_source_txt}}</text>
-                </a>
-                <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
-            </view>
-            <view class="feed-content">
-                <view class="question" qid="{{question_id}}" bindtap="bindQueTap">
-                    <a class="question-link">
-                        <text>{{item.question}}</text>
-                    </a>
-                </view>
-                <view class="answer-body">
-                    <view bindtap="bindItemTap">
-                        <text class="answer-txt" aid="{{answer_id}}">{{item.answer_ctnt}}</text>
-                    </view>
-                    <view class="answer-actions" bindtap="bindItemTap">
-                        <view class="like dot">
-                            <a>{{item.good_num}} 赞同 </a>
-                        </view>
-                        <view class="comments dot">
-                            <a>{{item.comment_num}} 评论 </a>
-                        </view>
-                        <view class="follow-it">
-                            <a>关注问题</a>
-                        </view>
-                    </view>
-                </view>
-            </view>
-        </view>
-    </block>
-</scroll-view>
+  <!--世界圈-->
+  <view bindtap="tapWorld" class="discovery-f-item flex-item flex-wrp">
+    <view class="discovery-f-item-img flex-item">
+      <image src="../../../images/world_icon@2x.png"></image>
+    </view>
+    <view class="discovery-f-item-text flex-item flex-wrp">
+      <view class="discovery-f-item-title flex-item">
+        <text>世界圈</text>
+      </view>
+      <view class="discovery-f-item-note flex-item">
+        <text>从各地帮你找寻新信息</text>
+      </view>
+    </view>
+    <view class="discovery-f-item-tail flex-item">
+      <image src="../../../images/right_icon@2x.png"></image>
+    </view>
+  </view>
 
+  <!--附近-->
+  <view id="near" bindtap="tapNear" class="discovery-f-item flex-item flex-wrp">
+    <view class="discovery-f-item-img flex-item">
+      <image src="../../../images/nearby_icon@2x.png"></image>
+    </view>
+    <view class="discovery-f-item-text flex-item flex-wrp">
+      <view class="discovery-f-item-title flex-item">
+        <text>附近</text>
+      </view>
+      <view class="discovery-f-item-note flex-item">
+        <text>身边集市，离你最近的都在这里</text>
+      </view>
+    </view>
+    <view class="discovery-f-item-tail flex-item">
+      <image src="../../../images/right_icon@2x.png"></image>
+    </view>
+  </view>
+
+  <!--下半部分-->
+
+  <!--买车、卖车-->
+  <view class="discovery-s-item flex-item flex-wrp">
+
+    <view bindtap="tapBuy" class="discovery-s-item-block flex-item flex-wrp">
+      <view class="discovery-s-item-text flex-item flex-wrp">
+        <view class="discovery-s-item-title flex-item">
+          <text>买车信息</text>
+        </view>
+        <view class="discovery-s-item-note flex-item">
+          <text>安全，有保障</text>
+        </view>
+      </view>
+      <view class="discovery-s-item-img flex-item">
+        <image src="../../../images/discovery/buy_car_icon@2x.png"></image>
+      </view>
+    </view>
+
+    <!--中间的线-->
+    <view class="discover-s-item-hr flex-item"></view>
+
+    <view bindtap="tapSell" class="discovery-s-item-block flex-item flex-wrp">
+      <view class="discovery-s-item-text flex-item flex-wrp">
+        <view class="discovery-s-item-title flex-item">
+          <text>卖车信息</text>
+        </view>
+        <view class="discovery-s-item-note flex-item">
+          <text>整机，零售</text>
+        </view>
+      </view>
+      <view class="discovery-s-item-img flex-item">
+        <image src="../../../images/discovery/sell_car_icon@2x.png"></image>
+      </view>
+    </view>
+
+  </view>
+
+  <!--出租、求租-->
+  <view class="discovery-s-item flex-item flex-wrp">
+
+    <view bindtap="tapRent" class="discovery-s-item-block flex-item flex-wrp">
+      <view class="discovery-s-item-text flex-item flex-wrp">
+        <view class="discovery-s-item-title flex-item">
+          <text>求租信息</text>
+        </view>
+        <view class="discovery-s-item-note flex-item">
+          <text>快速，不耽误工程</text>
+        </view>
+      </view>
+      <view class="discovery-s-item-img flex-item">
+        <image src="../../../images/discovery/wanted_icom@2x.png"></image>
+      </view>
+    </view>
+
+    <!--中间的线-->
+    <view class="discover-s-item-hr flex-item"></view>
+
+    <view bindtap="tapLease" class="discovery-s-item-block flex-item flex-wrp">
+      <view class="discovery-s-item-text flex-item flex-wrp">
+        <view class="discovery-s-item-title flex-item">
+          <text>出租信息</text>
+        </view>
+        <view class="discovery-s-item-note flex-item">
+          <text>闲置机器利用</text>
+        </view>
+      </view>
+      <view class="discovery-s-item-img flex-item">
+        <image src="../../../images/discovery/lease_icon@2x.png"></image>
+      </view>
+    </view>
+
+  </view>
+
+  <!--招聘、求职-->
+  <view class="discovery-s-item flex-item flex-wrp">
+
+    <view bindtap="tapRecruit" class="discovery-s-item-block flex-item flex-wrp">
+      <view class="discovery-s-item-text flex-item flex-wrp">
+        <view class="discovery-s-item-title flex-item">
+          <text>招聘信息</text>
+        </view>
+        <view class="discovery-s-item-note flex-item">
+          <text>靠谱，待遇好</text>
+        </view>
+      </view>
+      <view class="discovery-s-item-img flex-item">
+        <image src="../../../images/discovery/recruit_icon@2x.png"></image>
+      </view>
+    </view>
+
+    <!--中间的线-->
+    <view class="discover-s-item-hr flex-item"></view>
+
+    <view bindtap="tapApply" class="discovery-s-item-block flex-item flex-wrp">
+      <view class="discovery-s-item-text flex-item flex-wrp">
+        <view class="discovery-s-item-title flex-item">
+          <text>求职信息</text>
+        </view>
+        <view class="discovery-s-item-note flex-item">
+          <text>活好，必有职</text>
+        </view>
+      </view>
+      <view class="discovery-s-item-img flex-item">
+        <image src="../../../images/discovery/job_icon@2x.png"></image>
+      </view>
+    </view>
+
+  </view>
+
+</view>

@@ -21,7 +21,7 @@
   display: inline-block;
 }
 
-.publish .publish-item image {
+.publish-item-img image {
   width: 130rpx;
   height: 130rpx;
 }
