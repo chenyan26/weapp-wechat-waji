@@ -10,7 +10,7 @@
 
         <view bindtap="tapBuy" class="publish-item flex-item" >
             <view class="publish-item-img">
-                <image src="../../../images/buy_car_icon@2x.png"></image>
+                <image src="../../../images/publish/buy_car_icon@2x.png"></image>
             </view>
             <view class="publish-item-text">
                 <text>买车信息</text>
@@ -19,7 +19,7 @@
 
         <view bindtap="tapRent" class="publish-item flex-item">
             <view class="publish-item-img">
-                <image src="../../../images/Wanted_icon@2x.png"></image>
+                <image src="../../../images/publish/Wanted_icon@2x.png"></image>
             </view>
             <view class="publish-item-text">
                 <text>求租信息</text>
@@ -28,7 +28,7 @@
 
         <view bindtap="tapRecruit" class="publish-item flex-item">
             <view class="publish-item-img">
-                <image src="../../../images/recruit_icon@2x.png"></image>
+                <image src="../../../images/publish/recruit_icon@2x.png"></image>
             </view>
             <view class="publish-item-text">
                 <text>招聘信息</text>
@@ -42,7 +42,7 @@
 
         <view bindtap="tapSell" class="publish-item flex-item" >
             <view class="publish-item-img">
-                <image src="../../../images/Sell_car_icon@2x.png"></image>
+                <image src="../../../images/publish/Sell_car_icon@2x.png"></image>
             </view>
             <view class="publish-item-text">
                 <text>卖车信息</text>
@@ -51,7 +51,7 @@
 
         <view bindtap="tapLease" class="publish-item flex-item">
             <view class="publish-item-img">
-                <image src="../../../images/lease_icon@2x.png"></image>
+                <image src="../../../images/publish/lease_icon@2x.png"></image>
             </view>
             <view class="publish-item-text">
                 <text>出租信息</text>
@@ -60,7 +60,7 @@
 
         <view bindtap="tapApply" class="publish-item flex-item">
             <view class="publish-item-img">
-                <image src="../../../images/Job_icon@2x.png"></image>
+                <image src="../../../images/publish/Job_icon@2x.png"></image>
             </view>
             <view class="publish-item-text">
                 <text>求职信息</text>

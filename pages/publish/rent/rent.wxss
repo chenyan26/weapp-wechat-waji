@@ -1,0 +1,61 @@
+/* pages/publish/rent/rent.wxss */
+
+.row-item {
+  background-color: #fff;
+  width: 750rpx;
+  height: 90rpx;
+  align-items: center;
+  border-bottom: solid 1px #F0F0F0;
+}
+
+.row-item .row-item-label {
+  font-size: 30rpx;
+  padding-right: 10rpx;
+  color: #12b7f5;
+  flex-basis: 180rpx;
+  text-align: right
+}
+
+.row-item .row-item-hr image {
+  width: 4rpx;
+  height: 50rpx;
+}
+
+.row-item .row-item-icon {
+  margin-left: 10rpx
+}
+
+.row-item .row-item-icon image {
+  height: 10rpx;
+  width: 10rpx;
+}
+
+.row-item .row-item-input {
+  text-align: left;
+  color: #888888;
+  padding-left: 10rpx;
+  font-size: 30rpx;
+  flex-basis: 506rpx
+}
+
+/*.row-item .row-item-textarea {
+  text-align: left;
+  padding-left: 10rpx;
+  font-size: 30rpx;
+  flex-basis: 506rpx;
+  width: 506rpx;
+}*/
+
+.bottom {
+  padding-top: 100rpx;
+  background-color: #ffffff;
+  width: 750rpx
+}
+
+.bottom .btn-submit {
+  width: 600rpx;
+  background-color: #12b7f5;
+  font-size: 30rpx;
+  color: #ffffff;
+  border-width: 0;
+}

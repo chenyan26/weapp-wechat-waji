@@ -3,6 +3,13 @@
     "pages/index/index",
 
     "pages/publish/publish",
+    "pages/publish/buy/buy",
+    "pages/publish/sell/sell",
+    "pages/publish/rent/rent",
+    "pages/publish/lease/lease",
+    "pages/publish/recruit/recruit",
+    "pages/publish/apply/apply",
+
     "pages/my/my",
     "pages/my/info/info",
     "pages/my/album/album",
@@ -30,28 +37,28 @@
     "list": [{
       "pagePath": "pages/index/index",
       "text": "发现",
-      "iconPath": "images/Find_icon02@2x.png",
-      "selectedIconPath": "images/Find_icon01@2x.png"
+      "iconPath": "images/tabbar/Find_icon02@2x.png",
+      "selectedIconPath": "images/tabbar/Find_icon01@2x.png"
     }, {
       "pagePath": "pages/discovery/discovery",
       "text": "旧发现",
-      "iconPath": "images/Find_icon02@2x.png",
-      "selectedIconPath": "images/Find_icon01@2x.png"
+      "iconPath": "images/tabbar/Find_icon02@2x.png",
+      "selectedIconPath": "images/tabbar/Find_icon01@2x.png"
     }, {
       "pagePath": "pages/publish/publish",
       "text": "发布",
-      "iconPath": "images/+@2x2.png",
-      "selectedIconPath": "images/+@2x (2).png"
+      "iconPath": "images/tabbar/+@2x2.png",
+      "selectedIconPath": "images/tabbar/+@2x (2).png"
     }, {
       "pagePath": "pages/notify/notify",
       "text": "提示",
-      "iconPath": "images/+@2x2.png",
-      "selectedIconPath": "images/+@2x (2).png"
+      "iconPath": "images/tabbar/+@2x2.png",
+      "selectedIconPath": "images/tabbar/+@2x (2).png"
     }, {
       "pagePath": "pages/my/my",
       "text": "我的",
-      "iconPath": "images/Personal_icon02@2x.png",
-      "selectedIconPath": "images/Personal_icon01@2x.png"
+      "iconPath": "images/tabbar/Personal_icon02@2x.png",
+      "selectedIconPath": "images/tabbar/Personal_icon01@2x.png"
     }]
   },
   "networkTimeout": {

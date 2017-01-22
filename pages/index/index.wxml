@@ -5,7 +5,7 @@
   <!--朋友圈-->
   <view bindtap="tapFriend" class="discovery-f-item flex-item flex-wrp">
     <view class="discovery-f-item-img flex-item">
-      <image src="../../../images/friend_icon@2x.png"></image>
+      <image src="../../../images/discovery/friend_icon@2x.png"></image>
     </view>
     <view class="discovery-f-item-text flex-item flex-wrp">
       <view class="discovery-f-item-title flex-item">
@@ -23,7 +23,7 @@
   <!--世界圈-->
   <view bindtap="tapWorld" class="discovery-f-item flex-item flex-wrp">
     <view class="discovery-f-item-img flex-item">
-      <image src="../../../images/world_icon@2x.png"></image>
+      <image src="../../../images/discovery/world_icon@2x.png"></image>
     </view>
     <view class="discovery-f-item-text flex-item flex-wrp">
       <view class="discovery-f-item-title flex-item">
@@ -41,7 +41,7 @@
   <!--附近-->
   <view id="near" bindtap="tapNear" class="discovery-f-item flex-item flex-wrp">
     <view class="discovery-f-item-img flex-item">
-      <image src="../../../images/nearby_icon@2x.png"></image>
+      <image src="../../../images/discovery/nearby_icon@2x.png"></image>
     </view>
     <view class="discovery-f-item-text flex-item flex-wrp">
       <view class="discovery-f-item-title flex-item">

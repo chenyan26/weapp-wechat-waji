@@ -17,7 +17,7 @@
 
     <view bindtap="tapAlbum" class="my-item flex-wrp">
       <view class="myitem-icon flex-item" >
-        <image src="../../images/photo_icon@2x.png"></image>
+        <image src="../../images/my/photo_icon@2x.png"></image>
       </view>
       <view class="myitem-name flex-item">
         <text>我的相册</text>
@@ -29,7 +29,7 @@
 
     <view bindtap="tapQrcode" class="my-item flex-wrp">
       <view class="myitem-icon flex-item" >
-        <image src="../../images/code_icon@2x.png"></image>
+        <image src="../../images/my/code_icon@2x.png"></image>
       </view>
       <view class="myitem-name flex-item">
         <text>我的二维码</text>
@@ -41,7 +41,7 @@
 
     <view bindtap="tapFavour" class="my-item flex-wrp">
       <view class="myitem-icon flex-item" >
-        <image src="../../images/collection_icon@2x.png"></image>
+        <image src="../../images/my/collection_icon@2x.png"></image>
       </view>
       <view class="myitem-name flex-item">
         <text>我的收藏</text>
@@ -58,7 +58,7 @@
 
     <view bindtap="tapSetting" class="my-item flex-wrp">
       <view class="myitem-icon flex-item" >
-        <image src="../../images/shezhi_icon@2x.png"></image>
+        <image src="../../images/my/shezhi_icon@2x.png"></image>
       </view>
       <view class="myitem-name flex-item">
         <text>设置</text>
@@ -70,7 +70,7 @@
 
     <view bindtap="tapAbout" class="my-item flex-wrp">
       <view class="myitem-icon flex-item" >
-        <image src="../../images/we_icon@2x.png"></image>
+        <image src="../../images/my/we_icon@2x.png"></image>
       </view>
       <view class="myitem-name flex-item">
         <text>关于我们</text>

@@ -1,0 +1,125 @@
+<!--pages/publish/buy/buy.wxml-->
+
+<view class="container">
+
+    <!--品牌-->
+    <view class="row-item flex-item flex-wrp">
+        <view class="row-item-label flex-item">
+            <text>品牌</text>
+        </view>
+        <view class="row-item-hr flex-item">
+            <image src="../../../images/line.png"></image>
+        </view>
+        <view class="row-item-icon flex-item">
+            <image src="../../../images/publish/fb_xz@2x.png"></image>
+        </view>
+        <view class="row-item-input flex-item">
+            <input placeholder="请选择"/>
+        </view>
+    </view>
+
+    <!--型号-->
+    <view class="row-item flex-item flex-wrp">
+        <view class="row-item-label flex-item">
+            <text>型号</text>
+        </view>
+        <view class="row-item-hr flex-item">
+            <image src="../../../images/line.png"></image>
+        </view>
+        <view class="row-item-icon flex-item">
+            <image src="../../../images/publish/xin@2x.png"></image>
+        </view>
+        <view class="row-item-input flex-item">
+            <input placeholder="请输入型号"/>
+        </view>
+    </view>
+
+    <!--类型-->
+    <view class="row-item flex-item flex-wrp">
+        <view class="row-item-label flex-item">
+            <text>类型</text>
+        </view>
+        <view class="row-item-hr flex-item">
+            <image src="../../../images/line.png"></image>
+        </view>
+        <view class="row-item-icon flex-item">
+            <image src="../../../images/publish/fb_xz@2x.png"></image>
+        </view>
+        <view class="row-item-input flex-item">
+            <input placeholder="请选择"/>
+        </view>
+    </view>
+
+    <!--联系人-->
+    <view class="row-item flex-item flex-wrp">
+        <view class="row-item-label flex-item">
+            <text>联系人</text>
+        </view>
+        <view class="row-item-hr flex-item">
+            <image src="../../../images/line.png"></image>
+        </view>
+        <view class="row-item-icon flex-item">
+            <image src="../../../images/publish/xin@2x.png"></image>
+        </view>
+        <view class="row-item-input flex-item">
+            <input placeholder="请输入联系人"/>
+        </view>
+    </view>
+
+    <!--联系电话-->
+    <view class="row-item flex-item flex-wrp">
+        <view class="row-item-label flex-item">
+            <text>联系电话</text>
+        </view>
+        <view class="row-item-hr flex-item">
+            <image src="../../../images/line.png"></image>
+        </view>
+        <view class="row-item-icon flex-item">
+            <image src="../../../images/publish/xin@2x.png"></image>
+        </view>
+        <view class="row-item-input flex-item">
+            <input placeholder="请输入联系电话"/>
+        </view>
+    </view>
+
+    <!--地点-->
+    <view class="row-item flex-item flex-wrp">
+        <view class="row-item-label flex-item">
+            <text>地点</text>
+        </view>
+        <view class="row-item-hr flex-item">
+            <image src="../../../images/line.png"></image>
+        </view>
+        <view class="row-item-icon flex-item">
+            <image src="../../../images/publish/fb_xz@2x.png"></image>
+        </view>
+        <view class="row-item-input flex-item">
+            <input placeholder="请选择所在地区"/>
+        </view>
+    </view>
+
+    <!--具体描述-->
+    <view class="row-item flex-item flex-wrp">
+        <view class="row-item-label flex-item">
+            <text>具体描述</text>
+        </view>
+        <view class="row-item-hr flex-item">
+            <image src="../../../images/line.png"></image>
+        </view>
+        <view class="row-item-icon flex-item">
+            <image src="../../../images/publish/circle@2x.png"></image>
+        </view>
+        <view class="row-item-input flex-item">
+            <!--字符个数不能超过50-->
+            <!--<textarea maxlength="50" auto-height/>-->
+            <input placeholder="请输入内容"/>
+        </view>
+    </view>
+
+    
+    <!--立即发布-->
+    <view class="bottom">
+        <button class="btn-submit" bindtap="tapSubmit">立即发布</button>
+    </view>
+
+</view>
